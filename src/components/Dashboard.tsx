@@ -14,7 +14,7 @@ export default function Dashboard({ startingBalance, transactions }: { startingB
     <div>
       <div className="summary-row" style={{ marginBottom: 16 }}>
         <div style={{ flex: 1 }}>
-          <StartEndBar start={startingBalanceXXX} end={end} />
+          <StartEndBar start={startingBalance} end={end} />
         </div>
         <div style={{ width: 320 }}>
           <SummaryCard percent={percent} amount={saved} />
